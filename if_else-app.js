@@ -19,28 +19,22 @@
 
 //      console.log(intrafficDay);
 
-var result = prompt("who is it?");
 
 
 
-if(result == 'cancel'){
-    console.log('cancelled');
-}else if(result == 'nefise'){
-    console.log('welcome~');
+// if(result == 'cancel'){
+//     console.log('cancelled');
+// }else if(result == 'nefise'){
+//     console.log('welcome~');
 
     var password = prompt('enter your password:');
 
-    if(password == 'cancel'){
-        console.log('cancelled');
+   
 
-    }else if (password == '1234'){
+    if((password == '1234') || password == ('1236')){
         console.log('hi there!')
+    
     }else{
-        console.log('write the correct password.')
+        console.log('you wrote wrong password.')
+   
     }
-}else{
-    console.log('i dont know you!');
-}
-
-
-
