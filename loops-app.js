@@ -36,7 +36,7 @@ console.log(number);
             }
         }
 
-        
+
 // **for (loop)*
 
 // for(let i=0; i<10; i++){
@@ -61,3 +61,68 @@ console.log(number);
 // console.log(i)
     
 // }
+
+// for (let i=10; i>0; i--){
+//      console.log(i);
+//    }
+
+// let toplam=0;
+// for (let i=10; i>0; i--){
+//     toplam+=i;
+//   }
+
+// console.log(toplam);
+            // *10'dan 1'e kadar olan sayıların toplamını yazar
+
+
+
+// let result= 1;
+// for (let i=13; i>0; i--){
+//     console.log('before operation i=' +i+ ' result= ' +result)
+//     result+=i;
+//     console.log('after operation i=' +i+ ' result= ' +result)
+    
+//   }
+
+// let val= 1;
+// for (let i=15; i<20; i++){
+//     val*=i;
+//     console.log(val);
+// }
+// console.log(val);
+        // *15'den 19 kadar olan sayıları 1 arttırarak 1 ile çarpıp yazar.*
+
+// let val=1;
+// for (let i=15; i<20; i++){
+//     if(i%2==0){
+//         val*=i;
+//     }
+    
+// }
+// console.log(val); 
+        // *(sadece çift sayıların çarpımı için if(i%2==0) tek için if(i%2==1))*
+
+
+// for (let i=0; i<10; i++){
+
+//     for (let j=0; j<10; j++){
+//         console.log(`i : ${i} j : ${j}`);
+//     }
+// }
+
+let val = '\n';
+    // *('\n') ile bir alt satıra geçirir.*
+for (let i=0; i<10; i++){
+
+    for (let j=0; j<12; j++){
+        val += '* ';
+    }
+    val += '\n';
+}
+
+console.log(val);
+
+
+  
+
+
